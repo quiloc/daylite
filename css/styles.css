@@ -91,11 +91,16 @@
 
 .slider {
     background: #2a2a2a;
+}
+
+.slider-inner {
     display: flex;
-    padding: 70px 165px;
+    padding: 65px 0;
+    justify-content: space-between;
 }
 
 .slider-left {
+    width: 735px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,13 +109,11 @@
 .slider-left-title {
     font-size: 55px;
     font-weight: 700;
-    margin-right: 125px;
 }
 
 .slider-left-content {
     font-size: 25px;
     margin-bottom: 25px;
-    margin-right: 125px;
 }
 
 .purchase-now {
@@ -128,8 +131,11 @@
 
 .intro {
     background: #f4f4f4;
+}
+
+.intro-inner {
     display: flex;
-    padding: 70px 165px;
+    padding: 70px 0;
     flex-direction: column;
 }
 
@@ -162,8 +168,11 @@
 
 .process {
     background: #f9f9f9;
+}
+
+.process-inner {
     display: flex;
-    padding: 70px 165px;
+    padding: 70px 0 10px;
     flex-direction: column;
 }
 
@@ -240,9 +249,12 @@
     color: #a59477;
 }
 
-.blog-about {
+.blog-about-inner {
     display: flex;
+    padding: 70px 0 10px;
+    justify-content: space-between;
 }
+
 
 .blog {
     width: 45%;
@@ -280,13 +292,70 @@
 .post-cmt {
     padding: 0 10px;
     border-right: 1px solid;
-}
+} 
+
 .post-like {
     padding: 0 10px;
     display: flex;
     align-items: center;
 }
 
+.heart {
+    margin-left: 5px;
+}
+
 .post-info-content {
     margin-bottom: 20px;
+}
+
+.post-2 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.about {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content {
+    padding-left: 15px;
+}
+
+.testimonial {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.testimonial-inner {
+    display: flex;
+    padding: 60px 0;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.quotes {
+    width: 40px;
+    margin-bottom: 30px;
+}
+
+.testimonial-content {
+    padding: 0 160px;
+}
+
+.footer {
+    background: #393939;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.get-in, .twitter, .popular, .form {
+    width: 260px;
 }
