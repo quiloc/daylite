@@ -1,0 +1,66 @@
+.header {
+    background: #fff;    
+}
+
+.header-inner {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right {
+    display: flex;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 30px;
+    border-right: 1px solid #c2c2c2;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-left: 55px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.rss {
+    color: #fab16c;
+    border: 3px solid #fab16c;
+}
+
+.facebook {
+    color: #677fb5;
+    border: 3px solid #677fb5;
+}
+
+.twitter {
+    color: #70c2e9;
+    border: 3px solid #70c2e9;
+}
+
+.dribbble {
+    color: #e6a6ca;
+    border: 3px solid #e6a6ca;
+}
+
+.pinterest {
+    color: #d8545d;
+    border: 3px solid #d8545d;
+}

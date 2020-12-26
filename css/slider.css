@@ -1,0 +1,40 @@
+.slider {
+    background: #2a2a2a;
+}
+
+.slider-inner {
+    display: flex;
+    padding: 65px 0;
+}
+
+.slider-left {
+    width: 70%;
+    padding-right: 145px;
+}
+
+.slider-left-title {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.slider-left-content {
+    font-size: 25px;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+.purchase-now {
+    border: 3px solid #a59477;
+    border-radius: 5px;
+    padding: 20px 25px;
+    width: 130px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.slider-right {
+    width: 30%;
+    width: 300px;
+    height: 380px;
+}
